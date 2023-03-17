@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
-public class HelloController {
+@RequestMapping("/api-test")
+public class HelloRoot {
     @RequestMapping("")
     public String index()
     {
-        return "Hello Root";
+        return "1+1";
     }
 }
