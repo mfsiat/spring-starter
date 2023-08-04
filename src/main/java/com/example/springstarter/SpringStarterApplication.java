@@ -7,7 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringStarterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringStarterApplication.class, args);
+		// SpringApplication.run(SpringStarterApplication.class, args);
+		SpringApplication.run(RestApiDemoApplication.class, args);
+    RestTemplate restTemplate = new RestTemplate();
+    String apiUrl = "https://jsonplaceholder.typicode.com/posts";
+    Post[] posts = restTemplate.getForObject(apiUrl, Post[].class);
+
+    for (Post post : posts) {
+      System.out.println(post);
+   }
 	}
 
 }

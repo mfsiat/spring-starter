@@ -31,6 +31,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Add this inside the <dependencies> section of your pom.xml file -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.5.4</version> <!-- Use the latest version or specify a compatible version with your Spring Boot version -->
+		</dependency>
 	</dependencies>
 
 	<build>
