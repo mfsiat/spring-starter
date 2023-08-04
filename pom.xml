@@ -35,7 +35,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.5.4</version> <!-- Use the latest version or specify a compatible version with your Spring Boot version -->
+			<version>2.6.7</version> <!-- Use the latest version or specify a compatible version with your Spring Boot version -->
 		</dependency>
 	</dependencies>
 
